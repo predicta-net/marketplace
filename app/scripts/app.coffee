@@ -30,12 +30,15 @@ angular
       .when '/purchases',
         templateUrl: 'views/purchases.html'
         controller: 'PurchasesCtrl'
-      .when '/proposals',
-        templateUrl: 'views/proposals.html'
-        controller: 'ProposalsCtrl'
+      .when '/bids',
+        templateUrl: 'views/bids.html'
+        controller: 'BidsCtrl'
       .when '/campaigns',
         templateUrl: 'views/campaigns.html'
         controller: 'CampaignsCtrl'
+      .when '/search',
+        templateUrl: 'views/search.html'
+        controller: 'SearchCtrl'
       .otherwise
         redirectTo: '/'
 
