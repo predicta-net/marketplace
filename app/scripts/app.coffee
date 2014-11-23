@@ -2,14 +2,14 @@
 
 ###*
  # @ngdoc overview
- # @name angularFirebaseApp
+ # @name marketplace
  # @description
- # # angularFirebaseApp
+ # # marketplace
  #
  # Main module of the application.
 ###
 angular
-  .module('angularFirebaseApp', [
+  .module('marketplace', [
     'ngAnimate',
     'ngAria',
     'ngCookies',

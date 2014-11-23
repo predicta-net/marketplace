@@ -3,7 +3,7 @@
 describe 'Controller: MainCtrl', ->
 
   # load the controller's module
-  beforeEach module 'angularFirebaseApp'
+  beforeEach module 'marketplace'
 
   MainCtrl = {}
   scope = {}

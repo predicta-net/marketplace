@@ -2,12 +2,12 @@
 
 ###*
  # @ngdoc function
- # @name angularFirebaseApp.controller:MainCtrl
+ # @name marketplace.controller:MainCtrl
  # @description
  # # MainCtrl
- # Controller of the angularFirebaseApp
+ # Controller of the marketplace
 ###
-angular.module('angularFirebaseApp')
+angular.module('marketplace')
   .controller 'MainCtrl', ($scope) ->
     $scope.awesomeThings = [
       'HTML5 Boilerplate'
